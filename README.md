@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://svg-banners.vercel.app/api?type=typeWriter&text1=My%20balls%20are%20extremely%20itchy.%20🍙&width=800&height=400">
+  <img src="https://svg-banners.vercel.app/api?type=typeWriter&text1=My%20balls%20are%20extremely%20itchy.%20🍙&width=1000&height=500">
 </div>
 
 ###### Email: [dankgoogly@pm.me](mailto:dankgoogly@pm.me)
