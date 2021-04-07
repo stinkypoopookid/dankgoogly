@@ -1,0 +1,51 @@
+// Import fonts
+@import url("https://use.typekit.net/qxj0bdt.css");
+
+// Colours
+@blurple: #7289DA;
+@greyple: #99AAB5;
+@greyish: #2C2F33;
+@blackish: #23272A;
+
+// Elements
+body {
+    color: white;
+    background-color: @blackish;
+    font-family: source-code-pro;
+}
+
+a {
+    color: white;
+    &:hover {
+        color: white;
+    }
+    &:active {
+        color: @greyple;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: @greyish;
+}
+
+li {
+    float: left;
+    a {
+         display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        &:hoverLnot(.active) {
+            background-color: @greyish;
+        }
+    }
+}
+
+.active {
+    background-color: @blurple;
+}
