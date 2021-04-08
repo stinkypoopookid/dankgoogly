@@ -1,5 +1,5 @@
 // Import fonts
-@import url("https://use.typekit.net/qxj0bdt.css");
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
 
 // Colourscheme (Dracula)
 @background: #282a36;
@@ -31,7 +31,14 @@ body {
     color: @foreground;
     background-color: @background;
     font-size: medium;
-    font-family: source-code-pro, monospace;
+    font-family: 'Fira Code', monospace;
+}
+
+a { 
+    color: @red;
+    &:hover {
+        color: @orange;
+    }
 }
 
 ul#topnav {
@@ -42,9 +49,6 @@ ul#topnav {
     background-color: @currentline;
     li {
         float: left;
-        &#about {
-            float: right;
-        }
         a {
             display: block;
             color: white;
@@ -65,11 +69,28 @@ ul#topnav {
 }
 
 .paragraph {
-    padding:0 100px;
-    text-align:center;
+    padding: 50px;
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: @pink;
+    color: @foreground;
+    text-align: center;
+    a {
+        color: @cyan;
+        &:hover {
+            color: @green;
+        }
+    }
 }
 
 // At-rules
 @media screen and (max-width: 600px) {
     ul#topnav li {float: none;}
 }
+
