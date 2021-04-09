@@ -65,11 +65,3 @@ p {
     max-width: 1000px;
 }
 strong {color: var(--cyan)}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: var(--ansibrightblack);
-    color: var(--ansiwhite);
-}
