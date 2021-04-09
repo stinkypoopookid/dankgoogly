@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 html {height: 100%;}
 body {
-	color:white;
-    background-color:black;
+	color: white;
+    background-color: black;
     font-family: 'JetBrains Mono', monospace;
     font-size: medium;
     text-align: center;
