@@ -38,6 +38,7 @@ html {
 body {
 	color: var(--foreground);
     background-color: var(--background);
+    display: inline;
     font-size: medium;
     text-align: center;
 }
@@ -65,3 +66,4 @@ p {
     max-width: 1000px;
 }
 strong {color: var(--cyan)}
+div#nojs {display: none;}

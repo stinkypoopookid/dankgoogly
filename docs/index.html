@@ -5,9 +5,16 @@
         <meta name="viewport"   content="width=device-width, initial-scale=1" />
         <title>DanK's website</title>
         <link rel="icon"        href="//avatars.githubusercontent.com/u/34890978"    type="image/x-icon" />
-        <link rel="stylesheet"  href="./styles.css"     media="print" onload="this.media='all'; this.onload=null;" />   
+        <link rel="stylesheet"  href="./styles.css"     media="print" onload="this.media='all'; this.onload=null;" />
+        <noscript>
+            <style>
+                div#js {display: none;}
+                div#nojs {display: inline;}
+            </style>
+        </noscript>
     </head>
     <body>
+        <div id="js">
         <nav>
             <ul>
                 <a href="#" onclick="return show('home','about');">[ Home ]</a>
@@ -32,5 +39,9 @@
         return false;
     }
         </script>
+        </div>
+        <div id="nojs">
+            <p>You need to have javascript enabled to see a site even this simple. This just goes to show how fucked the internet is nowadays.</p>
+        </div>
     </body>
 </html>
