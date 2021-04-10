@@ -6,19 +6,19 @@
     font-style: normal;
 }
 @font-face {
-    font-family: jb-bold;
+    font-family: 'jb bold';
     src: url(./fonts/jb-bold.woff2);
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: jb-bold-italic;
+    font-family: 'jb bold italic';
     src: url(./fonts/jb-bold-italic.woff2);
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
-    font-family: jb-italic;
+    font-family: 'jb italic';
     src: url(./fonts/jb-italic.woff2);
     font-weight: normal;
     font-style: italic;
@@ -93,5 +93,5 @@ p {
 }
 strong {
     color: var(--cyan);
-    font-family: jb-bold;
+    font-family: 'jb bold';
 }

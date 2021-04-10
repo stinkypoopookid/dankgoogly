@@ -4,10 +4,12 @@
     <head>
         <meta charset='UTF-8' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="DanK's personal website for showcasing projects.">
+        <meta name="description" content="DanK's personal website for showcasing projects." />
         <title>DanK's website</title>
         <link rel="icon" href="./avatar.webp" type="image/x-icon" />
-        <link rel="stylesheet" href="./styles.css" media="print" onload="this.media='all'; this.onload=null;" />
+        <link rel="preload" href="./style.css" as="style" />
+        <link rel="preload" href="./main.js" as="script">
+        <link rel="stylesheet" href="./style.css" />
         <noscript>
             <meta http-equiv="refresh" content="0; url=//youtu.be/dQw4w9WgXcQ">
         </noscript>
@@ -17,8 +19,8 @@
             <a href="#" onclick="return show('home','about');">[ Home ]</a>
             <a href="#" onclick="return show('about','home');">[ About ]</a>
         </nav>
-        <div id="home">
-            <h1>You are now in a <strong id="test" contenteditable="true">&#8203;comatose</strong></h1>
+        <div id="home" class="typewriter">
+            <h1>You are now in a <strong>comatose</strong></h1>
         </div>
         <!--About page-->
         <div style="display: none;" id="about">
@@ -30,12 +32,6 @@
                 <br>And the last project I'm working on is <a href="//genericlinux.org/">Generic Linux</a>, which is a distribution of Linux that's meant to comply with practically all UNIX standards whilst being ironically generic.<br>
                 <br><img src="./avatar.webp" alt="Avatar" style="width: 175px; height: 175px;" >
         </div>
-        <script>
-    function show(shown, hidden) {
-        document.getElementById(shown).style.display='block';
-        document.getElementById(hidden).style.display='none';
-        return false;
-    }
-        </script>
+        <script src="./main.js" defer></script>
     </body>
 </html>
