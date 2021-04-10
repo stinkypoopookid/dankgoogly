@@ -32,12 +32,19 @@
     --ansibrightmagenta: #FF92DF;
     --ansibrightcyan: #A4FFFF;
 }
+@font-face {
+    font-family: hack;
+    src: url(./hack_reg.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 html {
     box-sizing: border-box;
 }
 body {
 	color: var(--foreground);
     background-color: var(--background);
+    font-family: hack, monospace;
     font-size: medium;
     text-align: center;
 }
