@@ -1,3 +1,29 @@
+/*Font Headass*/
+@font-face {
+    font-family: jb;
+    src: url(./fonts/jb-reg.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: jb-bold;
+    src: url(./fonts/jb-bold.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: jb-bold-italic;
+    src: url(./fonts/jb-bold-italic.woff2);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: jb-italic;
+    src: url(./fonts/jb-italic.woff2);
+    font-weight: normal;
+    font-style: italic;
+}
+/*Normal Shit*/
 *, *:before, *:after {
     box-sizing: inherit;
     margin: 5px;
@@ -32,19 +58,13 @@
     --ansibrightmagenta: #FF92DF;
     --ansibrightcyan: #A4FFFF;
 }
-@font-face {
-    font-family: hack;
-    src: url(./hack_reg.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
 html {
     box-sizing: border-box;
 }
 body {
 	color: var(--foreground);
     background-color: var(--background);
-    font-family: hack, monospace;
+    font-family: jb, monospace;
     font-size: medium;
     text-align: center;
 }
@@ -71,4 +91,7 @@ p {
     margin: auto;
     max-width: 1000px;
 }
-strong {color: var(--cyan)}
+strong {
+    color: var(--cyan);
+    font-family: jb-bold;
+}
