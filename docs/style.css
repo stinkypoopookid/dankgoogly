@@ -1,35 +1,12 @@
-/*Font Headass*/
 @font-face {
     font-family: jb;
-    src: url(./fonts/jb-reg.woff2);
-    font-weight: normal;
-    font-style: normal;
+    src: url(./jb.woff2);
 }
-@font-face {
-    font-family: 'jb bold';
-    src: url(./fonts/jb-bold.woff2);
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'jb bold italic';
-    src: url(./fonts/jb-bold-italic.woff2);
-    font-weight: bold;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'jb italic';
-    src: url(./fonts/jb-italic.woff2);
-    font-weight: normal;
-    font-style: italic;
-}
-/*Normal Shit*/
 *, *:before, *:after {
     box-sizing: inherit;
     margin: 5px;
     padding: 0;
 }
-
 :root {
     --background: #282a36;
     --currentline: #44475a;
@@ -60,13 +37,14 @@
 }
 html {
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
 body {
 	color: var(--foreground);
     background-color: var(--background);
     font-family: jb, monospace;
     font-size: medium;
-    text-align: center;
 }
 nav {
     font-size: large; 
@@ -82,16 +60,8 @@ a {
 a:hover {
     color: var(--purple);
 }
-h1, h2, h3, h4, h5, h6 {
-    margin: auto;
-    max-width: 1000px;
-    line-height: 50px;
-}
-p {
+h1, h2, h3, h4, h5, h6, p {
     margin: auto;
     max-width: 1000px;
 }
-strong {
-    color: var(--cyan);
-    font-family: 'jb bold';
-}
+strong {color: var(--cyan);}
