@@ -8,32 +8,18 @@
     padding: 0;
 }
 :root {
-    --background: #282a36;
-    --currentline: #44475a;
-    --foreground: #f8f8f2;
-    --comment: #6272a4;
-    --cyan: #8be9fd;
-    --green: #50fa7b;
-    --orange: #ffb86c;
-    --pink: #ff79c6;
-    --purple: #bd93f9;
-    --red: #ff5555;
-    --yellow: #f1fa8c;
-    --ansiblack: #21222C;
-    --ansired: #FF5555;
-    --ansigreen: #50FA7B;
-    --ansiyellow: #F1FA8C;
-    --ansiblue: #BD93F9;
-    --ansimagenta: #FF79C6;
-    --ansicyan: #8BE9FD;
-    --ansiwhite: #F8F8F2;
-    --ansibrightblack: #6272A4;
-    --ansibrightred: #FF6E6E;
-    --ansibrightgreen: #69FF94;
-    --ansibrightyellow: #FFFFA5;
-    --ansibrightblue: #D6ACFF;
-    --ansibrightmagenta: #FF92DF;
-    --ansibrightcyan: #A4FFFF;
+    --black: #282c34;
+    --white: #abb2bf;
+    --lred: #e06c75;
+    --dred: #be5046;
+    --green: #98c379;
+    --lyellow: #e5c07b;
+    --dyellow: #d19a66;
+    --blue: #61afef;
+    --magenta: #c678dd;
+    --cyan: #56b6c2;
+    --gutter: #4b5263;
+    --comment: #5c6370;
 }
 html {
     box-sizing: border-box;
@@ -41,8 +27,8 @@ html {
     justify-content: center;
 }
 body {
-	color: var(--foreground);
-    background-color: var(--background);
+	color: var(--white);
+    background-color: var(--black);
     font-family: jb, monospace;
     font-size: medium;
 }
@@ -55,10 +41,10 @@ nav {
 nav a {text-decoration: none;}
 nav a:hover {text-decoration: underline;}
 a {
-    color: var(--ansibrightyellow);
+    color: var(--lyellow);
 }
 a:hover {
-    color: var(--purple);
+    color: var(--magenta);
 }
 h1, h2, h3, h4, h5, h6, p {
     margin: auto;
