@@ -7,19 +7,16 @@
     margin: 5px;
     padding: 0;
 }
+::selection {color: #474e5d;}
 :root {
-    --black: #282c34;
-    --white: #abb2bf;
-    --lred: #e06c75;
-    --dred: #be5046;
+    --red: #e06c75;
     --green: #98c379;
-    --lyellow: #e5c07b;
-    --dyellow: #d19a66;
+    --yellow: #e5c07b;
     --blue: #61afef;
-    --magenta: #c678dd;
+    --purple: #c678dd;
     --cyan: #56b6c2;
-    --gutter: #4b5263;
-    --comment: #5c6370;
+    --white: #dcdfe4;
+    --black: #282c34;
 }
 html {
     box-sizing: border-box;
@@ -41,10 +38,10 @@ nav {
 nav a {text-decoration: none;}
 nav a:hover {text-decoration: underline;}
 a {
-    color: var(--lyellow);
+    color: var(--yellow);
 }
 a:hover {
-    color: var(--magenta);
+    color: var(--purple);
 }
 h1, h2, h3, h4, h5, h6, p {
     margin: auto;
