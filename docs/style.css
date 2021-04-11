@@ -42,7 +42,7 @@ html {
 }
 body {
 	color: var(--foreground);
-    background-color: black;
+    background-color: var(--background);
     font-family: jb, monospace;
     font-size: medium;
 }
@@ -53,25 +53,30 @@ nav {
     overflow: hidden;
 }
 nav a {text-decoration: none;}
-a {text-decoration: underline;}
-h1, h2, h3, h4, h5, h6, p, a {
+nav a:hover {text-decoration: underline;}
+a {
+    color: var(--ansibrightyellow);
+}
+a:hover {
+    color: var(--purple);
+}
+h1, h2, h3, h4, h5, h6, p {
     margin: auto;
     max-width: 1000px;
     letter-spacing: 1.5px;
-    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow 7s ease-in-out infinite;
-    background-size: 400% 100%;
 }
-
-@keyframes rainbow {
-    0%,100% {
-        background-position: 0 0;
+.wave span {
+    display: table-cell;
+    animation: wave 2s infinite;
+}
+@keyframes wave {
+    0% {
+        transform: translateY(0px)
     }
-
     50% {
-        background-position: 100% 0;
+        transform: translateY(7.5px)
+    }
+    100% {
+        transform: translateY(0px) 
     }
 }
