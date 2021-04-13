@@ -1,8 +1,6 @@
 <div align="center">
   <img src="https://svg-banners.vercel.app/api?type=typeWriter&text1=My%20balls%20are%20extremely%20itchy.%20🍙&width=1000&height=500" alt="Funny SVG>
 </div>
-
-<h5> Discord: CodFish_BBX#4936 (Might change during the holidays)</h5>
 <div align="center">
     <table>
         <tr>
