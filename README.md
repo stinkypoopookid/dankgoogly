@@ -3,6 +3,7 @@
 </div>
 
 ###### Email: [dankgoogly@pm.me](mailto:dankgoogly@pm.me)
+
 ###### Discord: CodFish_BBX#4936 (Might change during the holidays)
 <div align="center">
     <table>
