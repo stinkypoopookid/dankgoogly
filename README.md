@@ -2,8 +2,6 @@
   <img src="https://svg-banners.vercel.app/api?type=typeWriter&text1=My%20balls%20are%20extremely%20itchy.%20🍙&width=1000&height=500" alt="Funny SVG>
 </div>
 
-###### Email: [dankgoogly@pm.me](mailto:dankgoogly@pm.me)
-
 ###### Discord: CodFish_BBX#4936 (Might change during the holidays)
 <div align="center">
     <table>
