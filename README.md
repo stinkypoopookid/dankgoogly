@@ -2,6 +2,7 @@
   <img src="https://svg-banners.vercel.app/api?type=typeWriter&text1=My%20balls%20are%20extremely%20itchy.%20🍙&width=1000&height=500" alt="Funny SVG>
 </div>
 <div align="center">
+    <h1>Most of my projects are now at<a href="https://git.catvibers.me/DanKGooGLy">my personal GitLab.</a></h1>
     <table>
         <tr>
             <td align="center" style="padding=0;width=50%;">
